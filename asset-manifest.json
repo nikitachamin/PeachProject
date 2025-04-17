@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/nikitachamin/PeachProject.git/static/css/main.f5afda54.css",
-    "main.js": "/nikitachamin/PeachProject.git/static/js/main.3929eb3a.js",
-    "static/media/slick.svg": "/nikitachamin/PeachProject.git/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/nikitachamin/PeachProject.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/nikitachamin/PeachProject.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/nikitachamin/PeachProject.git/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/nikitachamin/PeachProject.git/index.html",
-    "main.f5afda54.css.map": "/nikitachamin/PeachProject.git/static/css/main.f5afda54.css.map",
-    "main.3929eb3a.js.map": "/nikitachamin/PeachProject.git/static/js/main.3929eb3a.js.map"
+    "main.css": "/PeachProject/static/css/main.68537a3f.css",
+    "main.js": "/PeachProject/static/js/main.3929eb3a.js",
+    "static/media/slick.svg": "/PeachProject/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/PeachProject/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/PeachProject/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/PeachProject/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/PeachProject/index.html",
+    "main.68537a3f.css.map": "/PeachProject/static/css/main.68537a3f.css.map",
+    "main.3929eb3a.js.map": "/PeachProject/static/js/main.3929eb3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5afda54.css",
+    "static/css/main.68537a3f.css",
     "static/js/main.3929eb3a.js"
   ]
 }
