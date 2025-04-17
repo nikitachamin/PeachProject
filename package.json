@@ -2,10 +2,10 @@
   "name": "nikitachamin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikitachamin.github.io/PeachProject/",
+  "homepage": "https://github.com/nikitachamin/PeachProject.git",
   "repository": {
     "type": "git",
-    "url": "https://nikitachamin.github.io/PeachProject"
+    "url": "https://github.com/nikitachamin/PeachProject.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
