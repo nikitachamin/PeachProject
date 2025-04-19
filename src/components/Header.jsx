@@ -5,7 +5,7 @@ function Header() {
         
       <div className="logo">
         <a href="home.html">
-          <img src="img/logo.png" />
+          <img src={`${process.env.PUBLIC_URL}/img/logo.png`} />
         </a>
       </div>
 

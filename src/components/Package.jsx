@@ -7,23 +7,23 @@ function Package() {
             <h2 className="package__title">Компенсационный пакет</h2>
             <div className="package__bonus-list">
                 <div className="package__bonus-item">
-                    <img src="img/package/item1.svg" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/img/package/item1.svg`} alt="ДМС" />
                     <p className="package__bonus-text">ДМС</p>
                 </div>
                 <div className="package__bonus-item">
-                    <img src="img/package/item2.svg" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/img/package/item2.svg`} alt="Выходной в день рождения" />
                     <p className="package__bonus-text">Выходной в день рождения</p>
                 </div>
                 <div className="package__bonus-item">
-                    <img src="img/package/item3.svg" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/img/package/item3.svg`} alt="Корпоративная мобильная связь" />
                     <p className="package__bonus-text">Корпоративная мобильная связь</p>
                 </div>
                 <div className="package__bonus-item">
-                    <img src="img/package/item4.svg" alt="" />
-                    <p className="package__bonus-text">Корпоративная мобильная связь</p>
+                    <img src={`${process.env.PUBLIC_URL}/img/package/item4.svg`} alt="Корпоративные скидки на спорт" />
+                    <p className="package__bonus-text">Корпоративные скидки на спорт</p>
                 </div>
                 <div className="package__bonus-item">
-                    <img src="img/package/item5.svg" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/img/package/item5.svg`} alt="LTI" />
                     <p className="package__bonus-text">LTI</p>
                 </div>
             </div>
@@ -36,15 +36,15 @@ function Package() {
             </div>
             <div className="package__bonus-list">
                 <div className="package__bonus-item">
-                    <img src="img/package/item6.svg" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/img/package/item6.svg`} alt="" />
                     <p className="package__bonus-text">Оргтехники</p>
                 </div>
                 <div className="package__bonus-item">
-                    <img src="img/package/item7.svg" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/img/package/item7.svg`} alt="" />
                     <p className="package__bonus-text">ДМС</p>
                 </div>
                 <div className="package__bonus-item">
-                    <img src="img/package/item8.svg" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/img/package/item8.svg`} alt="" />
                     <p className="package__bonus-text">Ипотеки</p>
                 </div>
             </div>

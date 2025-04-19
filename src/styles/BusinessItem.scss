@@ -21,7 +21,6 @@
     background: rgba(45, 54, 83, 0.6);
     transition: height 0.1s ease;
     
-    padding-top: 28px;
     
 }
 .visible{
@@ -54,6 +53,9 @@
     color: rgba(255, 255, 255, 1);
     display: block;
     
+}
+.arrow_white{
+    display: none;
 }
 
 @media (max-width: 720px) {

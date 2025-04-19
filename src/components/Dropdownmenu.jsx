@@ -104,7 +104,7 @@ const DropdownMenu = () => {
             Офисы Softline
             <img
               className={`arrow ${isOpen ? "up" : "down"}`}
-              src={"img/Pointer.svg"}
+              src={`${process.env.PUBLIC_URL}/img/Pointer.svg`}
               alt="Pointer"
             />
           </button>
@@ -121,7 +121,7 @@ const DropdownMenu = () => {
                       {region}
                       <img
               className={`arrow arrow_mini ${openRegions[region] ? "up" : "down"}`}
-              src={"img/Mini-Pointer.svg"}
+              src={`${process.env.PUBLIC_URL}/img/Mini-Pointer.svg`}
               alt="Mini-Pointer"
             />
                     </div>
@@ -156,7 +156,7 @@ const DropdownMenu = () => {
       {activeRegion && (
         <div className="map-img-container">
           <img
-            src={`/img/maps/${regions[activeRegion]}.svg`}
+            src={`${process.env.PUBLIC_URL}/img/maps/${regions[activeRegion]}.svg`}
             alt={`Карта ${activeRegion}`}
             className={`map-img ${isOpen ? "overlay-img" : null}`}
           />

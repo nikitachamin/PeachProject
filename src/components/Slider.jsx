@@ -16,11 +16,11 @@ const ImageSlider = () => {
   };
 
   const images = [
-    "/img/slider/Слайд1.svg",
-    "/img/slider/Слайд2.svg",
-    "/img/slider/Слайд3.svg",
-    "/img/slider/Слайд4.svg",
-    "/img/slider/Слайд5.svg",
+    `${process.env.PUBLIC_URL}/img/slider/Слайд1.svg`,
+    `${process.env.PUBLIC_URL}/img/slider/Слайд2.svg`,
+    `${process.env.PUBLIC_URL}/img/slider/Слайд3.svg`,
+    `${process.env.PUBLIC_URL}/img/slider/Слайд4.svg`,
+    `${process.env.PUBLIC_URL}/img/slider/Слайд5.svg`,
   ];
 
   const goToNext = () => {
@@ -45,7 +45,7 @@ const ImageSlider = () => {
             style={{ background: "none", border: "none", cursor: "pointer", marginRight: "20px", }}
           >
             <img
-              src="img/slider/previous.svg"
+              src={`${process.env.PUBLIC_URL}/img/slider/previous.svg`}
               alt="Previous"
               style={{ width: "56px", height: "56px" }}
             />
@@ -55,7 +55,7 @@ const ImageSlider = () => {
             style={{ background: "none", border: "none", cursor: "pointer" }}
           >
             <img
-              src="img/slider/next.svg"
+              src={`${process.env.PUBLIC_URL}/img/slider/next.svg`}
               alt="Next"
               style={{ width: "56px", height: "56px" }}
             />

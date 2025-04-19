@@ -5,23 +5,23 @@ function Mission() {
     <div className="mission-wrapper ">
       <div
         className="mission__container"
-        style={{ backgroundImage: "url(/img/mission/bg.svg)" }}
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img/mission/bg.svg)` }}
       >
         <div
           className="mission__pattern mission__pattern--left"
-          style={{ backgroundImage: "url(/img/mission/LeftPattern.svg)" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img/mission/LeftPattern.svg)` }}
         ></div>
         <div
           className="mission__pattern mission__pattern--left-2"
-          style={{ backgroundImage: "url(/img/mission/LeftPattern2.svg)" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img/mission/LeftPattern2.svg)` }}
         ></div>
         <div
           className="mission__pattern mission__pattern--right"
-          style={{ backgroundImage: "url(/img/mission/LeftPattern.svg)" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img/mission/LeftPattern.svg)` }}
         ></div>
         <div
           className="mission__pattern mission__pattern--right-2"
-          style={{ backgroundImage: "url(/img/mission/LeftPattern2.svg)" }}
+          style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/img/mission/LeftPattern2.svg)` }}
         ></div>
         <div className="mission__content">
          <div className="mission__about">
